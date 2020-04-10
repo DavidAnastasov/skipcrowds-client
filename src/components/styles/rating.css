@@ -1,0 +1,30 @@
+.rating {
+  unicode-bidi: bidi-override;
+  user-select: none;
+  direction: rtl;
+}
+
+.rating > input {
+  display: none;
+}
+
+.rating > label {
+  display: inline-block;
+  position: relative;
+  font-size: 4.5em;
+  color: white;
+  line-height: 130%;
+}
+
+.rating > label:hover::before,
+.rating > label:hover ~ label:before {
+  content: "\2605";
+  position: absolute;
+  color: #2cad97;
+}
+
+.rating > input:checked ~ label::before {
+  content: "\2605";
+  position: absolute;
+  color: #2cad97;
+}

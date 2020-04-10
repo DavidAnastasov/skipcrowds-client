@@ -1,0 +1,91 @@
+.background {
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  position: absolute;
+  text-align: center;
+
+  background-color: #2f2e41;
+}
+
+.temp {
+  background: #2cad97; /* Old browsers */
+  background: -moz-linear-gradient(top, #2cad97 0%, #2f2e41 48%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(
+    top,
+    #2cad97 0%,
+    #2f2e41 48%
+  ); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(
+    to bottom,
+    #2cad97 0%,
+    #2f2e41 48%
+  ); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2cad97', endColorstr='#2f2e41',GradientType=0 ); /* IE6-9 */
+}
+
+.holder {
+  display: inline-block;
+  text-align: -webkit-center;
+  /* border: 1px solid black; */
+}
+
+.holder img {
+  width: 150px;
+  margin-top: 8vh;
+  user-select: none;
+  pointer-events: none;
+  display: block;
+}
+
+.stop {
+  display: block;
+  color: rgb(163, 163, 163);
+  margin-top: 1.5vh;
+  font-size: 1.1em;
+}
+
+.thanks {
+  display: block;
+  margin-top: 7vh;
+  color: white;
+  font-size: 2.2em;
+}
+
+.youjust {
+  display: block;
+  color: rgb(163, 163, 163);
+  margin-top: 7vh;
+  font-size: 1.2em;
+}
+
+.placeName {
+  display: block;
+  color: white;
+  font-size: 2em;
+}
+
+.crowded {
+  display: block;
+  margin-top: 8vh;
+  color: rgb(163, 163, 163);
+  font-size: 1.1em;
+}
+
+.wantlive {
+  display: block;
+  margin-top: 7vh;
+  color: rgb(163, 163, 163);
+  font-size: 1.1em;
+}
+
+.download {
+  background-color: #2cad97;
+  color: white;
+  border: 0;
+  font-size: 1.5em;
+  margin-top: 2vh;
+  padding: 0.3em;
+  border-radius: 4px;
+}

@@ -1,0 +1,9 @@
+{
+  "short_name": "Skip Crowds",
+  "name": "Skip Crowds",
+  "icons": [],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#2cad97",
+  "background_color": "#2f2e41"
+}
